@@ -35,7 +35,8 @@ i {
 
 .menu ul > li a:hover {
 	color: rgba(0, 144, 141, 0.8);
-	border-bottom: 4px solid #00908d;
+	border-bottom: 5px solid #00908d;
+	transition: 0.5s;
 }
 
 .menu ul > li a:hover:after {
@@ -53,22 +54,28 @@ i {
 .nav {
 	min-height: 100px;
 	vertical-align: middle;
-	padding-top: 31px;
+	padding-top: 32px;
 }
 
-.nav h3 {
-	margin: 0 0 0 30px;
+.nav a {
+	margin: 0;
 	font-family: 'Oswald', sans-serif;
 	text-align: left;
 	text-transform: uppercase;
 	color: white;
-	font-size: 18px;
+	font-size: 22px;
 	font-weight: bold;
 	letter-spacing: 1.4px;
+	line-height: 15px;
 }
 
-.nav h3 span {
-	font-size: 17px;
+.nav a:hover {
+	color: white;
+	text-decoration: none;
+}
+
+.nav a span {
+	font-size: 21px;
 }
 
 .right_menu {
