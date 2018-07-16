@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<title>Задание</title>
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/media.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
 	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
@@ -16,7 +17,7 @@
 	<header>
 		<div class="container">
 			<div class="row">
-					<div class="side_bar col-sm-hide">
+					<div class="side_bar">
 						<i class="fa fa-search fa-lg" aria-hidden="true"></i>
 						<div class="vertical">
 							<ul>
@@ -26,10 +27,10 @@
 							</ul>
 						</div>
 					</div>
-				<div class="col-md-offset-1 col-sm-offset-1 col-md-11">
+				<div class="col-md-offset-1 col-sm-offset-2 col-md-11 col-sm-10">
 					<div class="nav">
 							<div class="col-md-3 col-sm-1">
-								<a href="#">Leader <br> <span>group</span></a>
+								<a class = "name"href="#">Leader <br> <span>group</span></a>
 							</div>
 							<div class="col-md-7 col-sm-8">
 								<div class="menu">
@@ -52,15 +53,50 @@
 			</div>
 			<div class="main_head">
 				<div class="row">
-					<div class="col-md-offset-2 col-lg-offset-1 col-sm-offset-2 col-lg-6 col-sm-8 col-md-10">
+					<div class="col-md-offset-2 col-lg-offset-1 col-sm-offset-2 col-lg-5 col-sm-9 col-md-9 mainleft">
 						<p class="int">Интернет-магазин</p>
 						<h1 class = "logo"><span>Leader</span><br>Sport</h1>
 						<p class="title">Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit.</p>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint animi vel quod corrupti sed quidem veniam molestiae labore, impedit, maiores adipisci quia consectetur amet facilis doloribus, officia quam earum culpa.</p>
 						<button>перейти к товарам</button> <div class="arrow"></div>
 					</div>
-					<div class="col-lg-5 col-md-11">
-						
+					<div class="right-slider col-sm-offset-2 col-md-offset-2 col-lg-offset-0 col-sm-9 col-lg-6 col-md-9">
+						<p class="topleft"><span>Lorem ipsum dolor sit amet</span> consectetur adipisicing elit. Doloribus, numquam maiores quis! Iusto tenetur, expedita explicabo</p>
+						<div class="all">
+						<input checked type="radio" name="respond" id="desktop">
+							<article id="slider">
+								<input checked type="radio" name="slider" id="switch1">
+								<input type="radio" name="slider" id="switch2">
+								<input type="radio" name="slider" id="switch3">
+								<input type="radio" name="slider" id="switch4">
+								<input type="radio" name="slider" id="switch5">
+							<div id="slides">
+								<div id="overflow">
+									<div class="image">
+										<article><img src="img/Стол.png"></article>
+										<article><img src="img/Стол2.png"></article>
+										<article><img src="img/Стол3.png"></article>
+										<article><img src="img/Стол4.png"></article>
+										<article><img src="img/Стол1.png"></article>
+									</div>
+								</div>
+							</div>
+							<div id="controls">
+								<label for="switch1"></label>
+								<label for="switch2"></label>
+								<label for="switch3"></label>
+								<label for="switch4"></label>
+								<label for="switch5"></label>
+							</div>
+							<div id="active">
+								<label for="switch1"></label>
+								<label for="switch2"></label>
+								<label for="switch3"></label>
+								<label for="switch4"></label>
+								<label for="switch5"></label>
+							</div>
+						</article>
+					  </div>
 					</div>
 				</div>
 			</div>
